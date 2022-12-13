@@ -65,16 +65,16 @@ public class EditProfile extends AppCompatActivity {
                         editName.setText(editName.getText().toString());
                         //databaseReference.child("users").child(userids).setValue(editUsername.getText().toString());
                         databaseReference.child("users").child(userids).child("email").setValue(editEmail.getText().toString());
-                        //databaseReference.child("users").child(userids).child("password").setValue(editPassword.getText().toString());
+                        databaseReference.child("users").child(userids).child("password").setValue(editPassword.getText().toString());
                         Toast.makeText(EditProfile.this, "User Profile updated successfully", Toast.LENGTH_SHORT).show();
 
                         final String getPassword = snapshot.child(userids).child("password").getValue(String.class);
                         final String getName = snapshot.child(userids).child("fullname").getValue(String.class);
                         final String getEmail = snapshot.child(userids).child("email").getValue(String.class);
-                        editPassword.setText(getPassword);
-                        editEmail.setText(getEmail);
-                        editName.setText(getName);
-                        editUsername.setText(userids);
+                        editPassword.setText(editPassword.getText().toString());
+                        editEmail.setText(editEmail.getText().toString());
+                        editName.setText(editName.getText().toString());
+                        editUsername.setText(editUsername.getText().toString());
 
 
                     }
