@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">HealthPal</string>
+    <string name="default_web_client_id" translatable="false">203020432379-8rcj1t86hce4n60kerf7fdngf8a1aj1v.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">203020432379</string>
+    <string name="google_api_key" translatable="false">AIzaSyAiMSq2aLdjXIpQkc53zpil3S3ItUwT63g</string>
+    <string name="google_app_id" translatable="false">1:203020432379:android:8c8818eeef62208670d15e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAiMSq2aLdjXIpQkc53zpil3S3ItUwT63g</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
+    <string name="google_storage_bucket" translatable="false">healthpal-1905e.appspot.com</string>
+    <string name="map_key" translatable="false">
+AIzaSyD5xrsCEgvK9bwv22jdDsaSFQjDTDrNjcQ
+    </string>
+    <string name="project_id" translatable="false">healthpal-1905e</string>
+    <style name="Theme.HealthPal" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

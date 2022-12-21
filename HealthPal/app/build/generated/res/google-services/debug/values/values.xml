@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">203020432379-8rcj1t86hce4n60kerf7fdngf8a1aj1v.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">203020432379</string>
+    <string name="google_api_key" translatable="false">AIzaSyAiMSq2aLdjXIpQkc53zpil3S3ItUwT63g</string>
+    <string name="google_app_id" translatable="false">1:203020432379:android:8c8818eeef62208670d15e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAiMSq2aLdjXIpQkc53zpil3S3ItUwT63g</string>
+    <string name="google_storage_bucket" translatable="false">healthpal-1905e.appspot.com</string>
+    <string name="project_id" translatable="false">healthpal-1905e</string>
+</resources>

@@ -1,18 +1,17 @@
 package com.example.healthpal;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -105,20 +104,44 @@ public class Home extends AppCompatActivity implements SelectListener {
         });
 
 
-//
-//
-
-
-
-
-
-
 
     }
 
     @Override
     public void onItemClicked(Medicine myMedicine) {
         Toast.makeText(this, myMedicine.getName() + " Quantity is now " + myMedicine.getQuantity(), Toast.LENGTH_SHORT).show();
+
+    }
+
+    @Override
+    public void onItemClicked2() {
+        Toast.makeText(this, "Quantity cannot go below 0", Toast.LENGTH_SHORT).show();
+
+    }
+
+    @Override
+    public void onItemClicked3(Medicine myMedicine) {
+        Intent ione = new Intent(getApplicationContext(), MedcineDetails.class);
+        ione.putExtra("name",myMedicine.getName());
+        ione.putExtra("quantity",myMedicine.getQuantity());
+        String userids = getIntent().getStringExtra("user");
+
+        ione.putExtra("user",userids);
+        ione.putExtra("date",myMedicine.getDate());
+        startActivity(ione);
+
+    }
+
+    @Override
+    public void onItemClicked4(Medicine myMedicine) {
+        Intent ione = new Intent(getApplicationContext(), HealthAlarm.class);
+        ione.putExtra("name",myMedicine.getName());
+        ione.putExtra("quantity",myMedicine.getQuantity());
+        String userids = getIntent().getStringExtra("user");
+
+        ione.putExtra("user",userids);
+        ione.putExtra("date",myMedicine.getDate());
+        startActivity(ione);
 
     }
 }

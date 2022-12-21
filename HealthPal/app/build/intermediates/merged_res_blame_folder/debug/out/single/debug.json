@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_ic_baseline_calendar_today_24.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/ic_baseline_calendar_today_24.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_medcine_details.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_medcine_details.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_welcome.jpg.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/welcome.jpg"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_ic_baseline_alarm_add_24.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/ic_baseline_alarm_add_24.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_edit_profile.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_register.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_registered.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/registered.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_reset.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/reset.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_upload_pic.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/upload_pic.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_shape.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/shape.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_shapess.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/shapess.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_adds.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/adds.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_login.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/login.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_add_medicine.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_add_medicine.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_pill.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/pill.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_addition.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/addition.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_home.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_ic_baseline_delete_24.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/ic_baseline_delete_24.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_user.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/user.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_medicines.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/medicines.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_login.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_health_alarm.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_health_alarm.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_circle.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/circle.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_registration_completed.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_registration_completed.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_rectangle.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/rectangle.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_minus.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/minus.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_clock.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/clock.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/xml_backup_rules.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.healthpal.app-pngs-32:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/drawable_registers.png.flat",
+        "source": "com.example.healthpal.app-main-39:/drawable/registers.png"
+    },
+    {
+        "merged": "com.example.healthpal.app-merged_res-37:/layout_activity_alarm_manager.xml.flat",
+        "source": "com.example.healthpal.app-main-39:/layout/activity_alarm_manager.xml"
+    }
+]

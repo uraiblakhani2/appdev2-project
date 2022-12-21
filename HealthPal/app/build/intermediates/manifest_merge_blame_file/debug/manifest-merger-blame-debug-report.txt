@@ -1,0 +1,480 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.healthpal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:6:5-66
+12-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:6:22-63
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:9:5-81
+13-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:10:5-79
+14-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:11:5-76
+15-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:11:22-73
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\a2b89f378d1ab808d81f4eb8c0d6b8cb\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:5-79
+17-->[com.google.firebase:firebase-database:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\a2b89f378d1ab808d81f4eb8c0d6b8cb\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\877eb4f6d5035413f6c1bc95d89ad094\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+18-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\877eb4f6d5035413f6c1bc95d89ad094\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\877eb4f6d5035413f6c1bc95d89ad094\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+19-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\877eb4f6d5035413f6c1bc95d89ad094\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\uraib\.gradle\caches\transforms-3\70babdac4845af9b448ff12f179e121e\transformed\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\uraib\.gradle\caches\transforms-3\70babdac4845af9b448ff12f179e121e\transformed\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\uraib\.gradle\caches\transforms-3\70babdac4845af9b448ff12f179e121e\transformed\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+26
+27    <application
+27-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:9:5-99:19
+28        android:allowBackup="true"
+28-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:10:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.8.0] C:\Users\uraib\.gradle\caches\transforms-3\6ad185644170b3120349581c887daa87\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:11:9-65
+31        android:debuggable="true"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:12:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:13:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:14:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:15:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:16:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.HealthPal" >
+38-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:17:9-47
+39        <activity
+39-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:19:9-25:20
+40            android:name="com.example.healthpal.MedcineDetails"
+40-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:20:13-43
+41            android:exported="false" >
+41-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:21:13-37
+42            <meta-data
+42-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+43                android:name="android.app.lib_name"
+43-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+44                android:value="" />
+44-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+45        </activity>
+46        <activity
+46-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:26:9-33:20
+47            android:name="com.example.healthpal.AddMedicine"
+47-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:27:13-40
+48            android:exported="false"
+48-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:28:13-37
+49            android:parentActivityName="com.example.healthpal.AddMedicine" >
+49-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:29:13-54
+50            <meta-data
+50-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+51                android:name="android.app.lib_name"
+51-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+52                android:value="" />
+52-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+53        </activity>
+54        <activity
+54-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:34:9-40:20
+55            android:name="com.example.healthpal.EditProfile"
+55-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:35:13-40
+56            android:exported="false" >
+56-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:36:13-37
+57            <meta-data
+57-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+58                android:name="android.app.lib_name"
+58-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+59                android:value="" />
+59-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+60        </activity>
+61        <activity
+61-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:41:9-47:20
+62            android:name="com.example.healthpal.HealthAlarm"
+62-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:42:13-40
+63            android:exported="false" >
+63-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:43:13-37
+64            <meta-data
+64-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+65                android:name="android.app.lib_name"
+65-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+66                android:value="" />
+66-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+67        </activity>
+68        <activity
+68-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:48:9-54:20
+69            android:name="com.example.healthpal.Home"
+69-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:49:13-33
+70            android:exported="false" >
+70-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:50:13-37
+71            <meta-data
+71-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+72                android:name="android.app.lib_name"
+72-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+73                android:value="" />
+73-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+74        </activity>
+75        <activity
+75-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:55:9-61:20
+76            android:name="com.example.healthpal.RegistrationCompleted"
+76-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:56:13-50
+77            android:exported="false" >
+77-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:57:13-37
+78            <meta-data
+78-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+79                android:name="android.app.lib_name"
+79-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+80                android:value="" />
+80-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+81        </activity>
+82        <activity
+82-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:62:9-68:20
+83            android:name="com.example.healthpal.ForgotPassword"
+83-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:63:13-43
+84            android:exported="false" >
+84-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:64:13-37
+85            <meta-data
+85-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+86                android:name="android.app.lib_name"
+86-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+87                android:value="" />
+87-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+88        </activity>
+89        <activity
+89-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:69:9-75:20
+90            android:name="com.example.healthpal.LoginActivity"
+90-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:70:13-42
+91            android:exported="false" >
+91-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:71:13-37
+92            <meta-data
+92-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+93                android:name="android.app.lib_name"
+93-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+94                android:value="" />
+94-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+95        </activity>
+96        <activity
+96-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:76:9-82:20
+97            android:name="com.example.healthpal.RegisterActivity"
+97-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:77:13-45
+98            android:exported="false" >
+98-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:78:13-37
+99            <meta-data
+99-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+100                android:name="android.app.lib_name"
+100-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+101                android:value="" />
+101-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+102        </activity>
+103        <activity
+103-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:83:9-95:20
+104            android:name="com.example.healthpal.MainActivity"
+104-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:84:13-41
+105            android:exported="true" >
+105-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:85:13-36
+106            <intent-filter>
+106-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:86:13-90:29
+107                <action android:name="android.intent.action.MAIN" />
+107-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:87:17-69
+107-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:87:25-66
+108
+109                <category android:name="android.intent.category.LAUNCHER" />
+109-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:89:17-77
+109-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:89:27-74
+110            </intent-filter>
+111
+112            <meta-data
+112-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:22:13-24:36
+113                android:name="android.app.lib_name"
+113-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:23:17-52
+114                android:value="" />
+114-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:24:17-33
+115        </activity>
+116
+117        <receiver android:name="com.example.healthpal.AlarmReceiver" />
+117-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:98:9-50
+117-->C:\Users\uraib\Desktop\HealthPalFinalVersion\HealthPalFinalVersion\HealthPal\app\src\main\AndroidManifest.xml:98:19-48
+118
+119        <activity
+119-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:15:9-21:20
+120            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+120-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:16:13-91
+121            android:exported="false"
+121-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:17:13-37
+122            android:label="@string/places_autocomplete_label"
+122-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:18:13-62
+123            android:theme="@style/PlacesAutocompleteOverlay"
+123-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:19:13-61
+124            android:windowSoftInputMode="adjustResize" >
+124-->[com.google.android.libraries.places:places:2.7.0] C:\Users\uraib\.gradle\caches\transforms-3\ba94696f621aaf912dc50a76058586c2\transformed\places-2.7.0\AndroidManifest.xml:20:13-55
+125        </activity>
+126
+127        <service
+127-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\4bdf5912b1673ff16cba847e817cae75\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
+128            android:name="com.google.firebase.components.ComponentDiscoveryService"
+128-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\4bdf5912b1673ff16cba847e817cae75\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:12:13-84
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\13d8eb11551b7ded5d9727c7a43ed53b\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+130            android:exported="false" >
+130-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\4bdf5912b1673ff16cba847e817cae75\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:13:13-37
+131            <meta-data
+131-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\4bdf5912b1673ff16cba847e817cae75\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+132                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+132-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\4bdf5912b1673ff16cba847e817cae75\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:15:17-124
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\4bdf5912b1673ff16cba847e817cae75\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:16:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-database:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\a2b89f378d1ab808d81f4eb8c0d6b8cb\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+135                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+135-->[com.google.firebase:firebase-database:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\a2b89f378d1ab808d81f4eb8c0d6b8cb\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-database:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\a2b89f378d1ab808d81f4eb8c0d6b8cb\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+138                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+138-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-firestore:24.4.1] C:\Users\uraib\.gradle\caches\transforms-3\387ec7f96c9fcd6caa6f6633b30ac57a\transformed\firebase-firestore-24.4.1\AndroidManifest.xml:19:13-21:85
+141                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+141-->[com.google.firebase:firebase-firestore:24.4.1] C:\Users\uraib\.gradle\caches\transforms-3\387ec7f96c9fcd6caa6f6633b30ac57a\transformed\firebase-firestore-24.4.1\AndroidManifest.xml:20:17-111
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-firestore:24.4.1] C:\Users\uraib\.gradle\caches\transforms-3\387ec7f96c9fcd6caa6f6633b30ac57a\transformed\firebase-firestore-24.4.1\AndroidManifest.xml:21:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\49db161b2c04d9a42098ee797992ea7d\transformed\firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+144                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+144-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\49db161b2c04d9a42098ee797992ea7d\transformed\firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\uraib\.gradle\caches\transforms-3\49db161b2c04d9a42098ee797992ea7d\transformed\firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\09898b4c235ce21393b55d6a441d5759\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+147                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+147-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\09898b4c235ce21393b55d6a441d5759\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\09898b4c235ce21393b55d6a441d5759\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+149            <meta-data
+149-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\877eb4f6d5035413f6c1bc95d89ad094\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+150                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+150-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\877eb4f6d5035413f6c1bc95d89ad094\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\877eb4f6d5035413f6c1bc95d89ad094\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\uraib\.gradle\caches\transforms-3\484a4bb642ffd1734a4c2179faa0ab59\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+153                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+153-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\uraib\.gradle\caches\transforms-3\484a4bb642ffd1734a4c2179faa0ab59\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\uraib\.gradle\caches\transforms-3\484a4bb642ffd1734a4c2179faa0ab59\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+155        </service>
+156
+157        <activity
+157-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+158            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+158-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+159            android:excludeFromRecents="true"
+159-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+160            android:exported="true"
+160-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+161            android:launchMode="singleTask"
+161-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+162            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+162-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+163            <intent-filter>
+163-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+164                <action android:name="android.intent.action.VIEW" />
+164-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+164-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+166-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+167                <category android:name="android.intent.category.BROWSABLE" />
+167-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+167-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+168
+169                <data
+169-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+170                    android:host="firebase.auth"
+170-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+171                    android:path="/"
+171-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+172                    android:scheme="genericidp" />
+172-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+173            </intent-filter>
+174        </activity>
+175        <activity
+175-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+176            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+176-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+177            android:excludeFromRecents="true"
+177-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+178            android:exported="true"
+178-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+179            android:launchMode="singleTask"
+179-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+180-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+181            <intent-filter>
+181-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+182                <action android:name="android.intent.action.VIEW" />
+182-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+182-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+183
+184                <category android:name="android.intent.category.DEFAULT" />
+184-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+184-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+185                <category android:name="android.intent.category.BROWSABLE" />
+185-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+185-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+186
+187                <data
+187-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+188                    android:host="firebase.auth"
+188-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+189                    android:path="/"
+189-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+190                    android:scheme="recaptcha" />
+190-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\uraib\.gradle\caches\transforms-3\11292895e08e0858bab07a464d04adc2\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+191            </intent-filter>
+192        </activity>
+193
+194        <provider
+194-->[com.google.firebase:firebase-common:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\13d8eb11551b7ded5d9727c7a43ed53b\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+195            android:name="com.google.firebase.provider.FirebaseInitProvider"
+195-->[com.google.firebase:firebase-common:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\13d8eb11551b7ded5d9727c7a43ed53b\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+196            android:authorities="com.example.healthpal.firebaseinitprovider"
+196-->[com.google.firebase:firebase-common:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\13d8eb11551b7ded5d9727c7a43ed53b\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\13d8eb11551b7ded5d9727c7a43ed53b\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+198            android:exported="false"
+198-->[com.google.firebase:firebase-common:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\13d8eb11551b7ded5d9727c7a43ed53b\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+199            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+199-->[com.google.firebase:firebase-common:20.2.0] C:\Users\uraib\.gradle\caches\transforms-3\13d8eb11551b7ded5d9727c7a43ed53b\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+200        <uses-library
+200-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\uraib\.gradle\caches\transforms-3\70babdac4845af9b448ff12f179e121e\transformed\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+201            android:name="org.apache.http.legacy"
+201-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\uraib\.gradle\caches\transforms-3\70babdac4845af9b448ff12f179e121e\transformed\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+202            android:required="false" />
+202-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\uraib\.gradle\caches\transforms-3\70babdac4845af9b448ff12f179e121e\transformed\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+203
+204        <activity
+204-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\uraib\.gradle\caches\transforms-3\0665f9f6c478c77a4e6864ff121256f4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+205            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+205-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\uraib\.gradle\caches\transforms-3\0665f9f6c478c77a4e6864ff121256f4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+206            android:exported="false"
+206-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\uraib\.gradle\caches\transforms-3\0665f9f6c478c77a4e6864ff121256f4\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+207-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\uraib\.gradle\caches\transforms-3\0665f9f6c478c77a4e6864ff121256f4\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+208
+209        <receiver
+209-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+210            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+210-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+211            android:enabled="true"
+211-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+212            android:exported="false" >
+212-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+213        </receiver>
+214
+215        <service
+215-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+216            android:name="com.google.android.gms.measurement.AppMeasurementService"
+216-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+217            android:enabled="true"
+217-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+218            android:exported="false" />
+218-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+219        <service
+219-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+220            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+220-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+221            android:enabled="true"
+221-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+222            android:exported="false"
+222-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+223            android:permission="android.permission.BIND_JOB_SERVICE" />
+223-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\uraib\.gradle\caches\transforms-3\805c6d241c76ad0b93db535782a86d26\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+224
+225        <meta-data
+225-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\uraib\.gradle\caches\transforms-3\2ebe68b503f746718bd00ae51614661d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+226            android:name="com.google.android.gms.version"
+226-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\uraib\.gradle\caches\transforms-3\2ebe68b503f746718bd00ae51614661d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+227            android:value="@integer/google_play_services_version" />
+227-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\uraib\.gradle\caches\transforms-3\2ebe68b503f746718bd00ae51614661d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+228
+229        <provider
+229-->[androidx.emoji2:emoji2:1.2.0] C:\Users\uraib\.gradle\caches\transforms-3\d7a291a8243538a3ba38f2ed7959f245\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+230            android:name="androidx.startup.InitializationProvider"
+230-->[androidx.emoji2:emoji2:1.2.0] C:\Users\uraib\.gradle\caches\transforms-3\d7a291a8243538a3ba38f2ed7959f245\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+231            android:authorities="com.example.healthpal.androidx-startup"
+231-->[androidx.emoji2:emoji2:1.2.0] C:\Users\uraib\.gradle\caches\transforms-3\d7a291a8243538a3ba38f2ed7959f245\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+232            android:exported="false" >
+232-->[androidx.emoji2:emoji2:1.2.0] C:\Users\uraib\.gradle\caches\transforms-3\d7a291a8243538a3ba38f2ed7959f245\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+233            <meta-data
+233-->[androidx.emoji2:emoji2:1.2.0] C:\Users\uraib\.gradle\caches\transforms-3\d7a291a8243538a3ba38f2ed7959f245\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+234                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+234-->[androidx.emoji2:emoji2:1.2.0] C:\Users\uraib\.gradle\caches\transforms-3\d7a291a8243538a3ba38f2ed7959f245\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+235                android:value="androidx.startup" />
+235-->[androidx.emoji2:emoji2:1.2.0] C:\Users\uraib\.gradle\caches\transforms-3\d7a291a8243538a3ba38f2ed7959f245\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+236            <meta-data
+236-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\uraib\.gradle\caches\transforms-3\face66f6c041cfd8be7dbb5ae947d314\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+237                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+237-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\uraib\.gradle\caches\transforms-3\face66f6c041cfd8be7dbb5ae947d314\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+238                android:value="androidx.startup" />
+238-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\uraib\.gradle\caches\transforms-3\face66f6c041cfd8be7dbb5ae947d314\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+239        </provider>
+240
+241        <service
+241-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\uraib\.gradle\caches\transforms-3\bc7ceb42caf9e8013bdbbeea9c146005\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+242            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+242-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\uraib\.gradle\caches\transforms-3\bc7ceb42caf9e8013bdbbeea9c146005\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+243            android:exported="false" >
+243-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\uraib\.gradle\caches\transforms-3\bc7ceb42caf9e8013bdbbeea9c146005\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+244            <meta-data
+244-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\uraib\.gradle\caches\transforms-3\bc7ceb42caf9e8013bdbbeea9c146005\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+245                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+245-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\uraib\.gradle\caches\transforms-3\bc7ceb42caf9e8013bdbbeea9c146005\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+246                android:value="cct" />
+246-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\uraib\.gradle\caches\transforms-3\bc7ceb42caf9e8013bdbbeea9c146005\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+247        </service>
+248        <service
+248-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\uraib\.gradle\caches\transforms-3\8878b2e870a5b13eb00e2c2b7d42d8f8\transformed\transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+249            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+249-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\uraib\.gradle\caches\transforms-3\8878b2e870a5b13eb00e2c2b7d42d8f8\transformed\transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+250            android:exported="false"
+250-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\uraib\.gradle\caches\transforms-3\8878b2e870a5b13eb00e2c2b7d42d8f8\transformed\transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+251            android:permission="android.permission.BIND_JOB_SERVICE" >
+251-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\uraib\.gradle\caches\transforms-3\8878b2e870a5b13eb00e2c2b7d42d8f8\transformed\transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+252        </service>
+253
+254        <receiver
+254-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\uraib\.gradle\caches\transforms-3\8878b2e870a5b13eb00e2c2b7d42d8f8\transformed\transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+255            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+255-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\uraib\.gradle\caches\transforms-3\8878b2e870a5b13eb00e2c2b7d42d8f8\transformed\transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+256            android:exported="false" />
+256-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\uraib\.gradle\caches\transforms-3\8878b2e870a5b13eb00e2c2b7d42d8f8\transformed\transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+257    </application>
+258
+259</manifest>
